@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Collette's Candy</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="lesson_9_activity_3/styles.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Collette's Candy</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Selection</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ✅ Carousel Section -->
+<div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- Slides -->
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="lesson_9_activity_3/chocolatecandy.jpg" width="400" height="600" class="d-block w-100" alt="chocolatecandy">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Chocolate Candy</h3>
+        <p>These cholate candies have a crunchy outside and creamy inside. </p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="lesson_9_activity_3/gumdrops.jpg" width="400" height="600" class="d-block w-100" alt="gumdrops">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Gum Drops</h3>
+        <p>Brightly colored, cone-shaped, or dome-shaped pieces often covered in coarse sugar crystals.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="lesson_9_activity_3/swedishfish.webp" width="400" height="600" class="d-block w-100" alt="swedishfish">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Swedish Fish</h3>
+        <p>They are soft, chewy, and slightly sticky, not having the gelatin-based rubbery texture of gummy bears.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+
+<!-- Header -->
+<header class="bg-primary text-white text-center py-5">
+  <div class="container">
+    <h1>Collette's Candy Store</h1>
+    <p>Life is short, make it sweet!</p>
+  </div>
+</header>
+
+<!-- Main Content -->
+<div class="container mt-5">
+  <div class="row">
+
+    <!-- Blog Posts -->
+    <div class="col-md-8">
+
+      <div class="card mb-4">
+        <img src="lesson_9_activity_3/lolipops.jpg"  class="card-img-top" alt="lolipop">
+        <div class="card-body">
+          <h2 class="card-title">Top Candy</h2>
+          <p class="card-text">
+            Discover our customer's favorite's!
+          </p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+
+      <div class="card mb-4">
+        <img src="lesson_9_activity_3/bottlecaps.jpg" class="card-img-top" alt="Retrocandy">
+        <div class="card-body">
+          <h2 class="card-title">Retro Candy</h2>
+          <p class="card-text">
+            Looking for your childhood candy? Look no further!
+          </p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Sidebar -->
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <div class="card-header">About</div>
+        <div class="card-body">
+          We hope to connect customers to the nostalgia, quality, and passion behind our brand through our sweet treats.
+        </div>
+      </div>
+
+      <div class="card mb-4">
+        <div class="card-header">Categories</div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Choolates</li>
+          <li class="list-group-item">Gummies</li>
+          <li class="list-group-item">Fruity candy</li>
+          <li class="list-group-item">Classics</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3 mt-5">
+  <p>&copy; 2026 Collette's Candy</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

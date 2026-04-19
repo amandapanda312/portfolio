@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>lesson7assignment3</title>
+<link href="individual/lesson7assignment3/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	
+	<script src="individual/lesson7assignment3/script.js"></script>
+	
+	<header>
+  
+		<h1>Dana's Delcicious Diner</h1>
+</header>
+
+	<section>
+	<h2>Dana's Fan Favorite's!</h2>
+	</section>
+	
+<!-- GALLERY -->
+<section class="gallery">
+
+    <div class="menu-item">
+        <img src="individual/lesson7assignment3/pasta.jpg" alt="Pasta" onclick="openModal(this)">
+        <p class="desc">Creamy Alfredo Pasta</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="individual/lesson7assignment3/burger.jpg" alt="Burger" onclick="openModal(this)">
+        <p class="desc">Classic Cheeseburger</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="individual/lesson7assignment3/salad.webp" alt="Salad" onclick="openModal(this)">
+        <p class="desc">Fresh Garden Salad</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="individual/lesson7assignment3/pizza.jpg" alt="Pizza" onclick="openModal(this)">
+        <p class="desc">Wood-Fired Pizza</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="individual/lesson7assignment3/steak.jpg" alt="Steak" onclick="openModal(this)">
+        <p class="desc">Grilled Ribeye Steak</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="individual/lesson7assignment3/dessert.webp" alt="Dessert" onclick="openModal(this)">
+        <p class="desc">Chocolate Lava Cake</p>
+    </div>
+
+</section>
+
+<!-- MODAL (POPUP) -->
+<div id="modal" class="modal" onclick="closeModal()">
+    <img id="modal-img" alt="modal">
+    <p id="modal-text"></p>
+</div>
+
+<!-- MOBILE DIRECTIONS -->
+<section class="directions">
+    <h2>Find Us</h2>
+    <p>123 Main Street, Perkasie, PA</p>
+    <img src="individual/lesson7assignment3/images/map.jpg" alt="Map">
+</section>
+
+	
+
+	<img src="individual/lesson7assignment3/map.png" alt="Map" width="400" height="200">
+	
+</body>
+	
+	<section class="directions">
+    <h2>Find Us</h2>
+    <p>123 Main Street, Perkasie, PA</p>
+    
+</section>
+
+	
+	
+<footer>
+    <p class="full-footer">
+        📍 123 Main Street, Perkasie, PA <br>
+        A cozy spot in the heart of town! <br>
+        📞 (215) 555-1234
+    </p>
+
+    <p class="medium-footer">
+        📞 (215) 555-1234
+    </p>
+</footer>
+
+</html>

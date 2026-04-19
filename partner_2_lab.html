@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Dashboard</title>
+    <link rel="stylesheet" href="partner/partner_2_lab/style.css">
+</head>
+
+<body>
+
+    <!-- Greeting Section -->
+    <h1 id="greeting">Hello User!</h1>
+    <p id="message">Welcome to your daily dashboard.</p>
+
+    <hr>
+
+    <!-- Customization Controls -->
+    <h2>Customize Your Page</h2>
+
+    <label>Enter your name:</label>
+    <input type="text" id="nameInput">
+
+    <br><br>
+
+    <label>Enter a message:</label>
+    <input type="text" id="messageInput">
+
+    <br><br>
+
+    <label>Choose background color:</label>
+    <select id="colorSelect">
+        <option value="white">White</option>
+        <option value="lightblue">Light Blue</option>
+        <option value="lightgreen">Light Green</option>
+        <option value="lightyellow">Light Yellow</option>
+        <option value="lightpink">Light Pink</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="updatePage()">Submit</button>
+
+    <hr>
+
+    <!-- Extra Credit: To Do List -->
+    <h2>To Do List</h2>
+
+    <input type="text" id="todoInput" placeholder="Enter a task">
+    <button onclick="addTask()">Add Task</button>
+
+    <ol id="todoList"></ol>
+
+    <script src="partner/partner_2_lab/script.js"></script>
+
+</body>
+</html>
